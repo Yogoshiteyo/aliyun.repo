@@ -1,5 +1,4 @@
-# tuna.repo
-清华大学软件源
+#清华大学软件源
 [OS]
 name=OS
 baseurl=https://mirrors.tuna.tsinghua.edu.cn/openeuler/openEuler-22.03-LTS-SP1/OS/$basearch/
