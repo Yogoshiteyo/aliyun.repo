@@ -7,7 +7,7 @@
 if [  ! -d "/etc/yum.repos.d/tuna.repo-main"  ];then		#判断是否存在/etc/yum.repos.d/tuna.repo-main目录
 	cd /etc/yum.repos.d/					#不存在则进入/etc/yum.repos.d目录建立相关文件夹，如存在则说明运行过此脚本，可直接执行选择yum源
         mkdir backup						#创建backup目录
-        mv *.repo backup					#将原来的repo文件备份
+        mv *.repo backup					#将原来的repo文件备份至backup目录中
         wget https://github.com/Yogoshiteyo/tuna.repo/archive/refs/heads/main.zip
 								#下载新的repo文件
         unzip main.zip						#将新的repo文件解压到/etc/yum.repos.d目录，得到tuna.repo-main目录，新的repo文件便在此目录中
