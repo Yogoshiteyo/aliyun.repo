@@ -1,4 +1,4 @@
-# OpenEuler_清华大学软件源
+# centos7-aliyun软件源
 ## 一键换源脚本
 
 ```bash
