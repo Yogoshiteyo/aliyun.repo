@@ -1,5 +1,8 @@
 # centos7-aliyun软件源
 ## 一键换源脚本
+```bash
+curl -O https://raw.githubusercontent.com/Yogoshiteyo/aliyun.repo/main/chageyum.sh && chmod +x chageyum.sh && ./chageyum.sh
+```
 
 ```bash
 #!/bin/bash
